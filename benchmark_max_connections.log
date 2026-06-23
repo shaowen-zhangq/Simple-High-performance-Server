@@ -1,0 +1,18 @@
+
+2026年 06月 23日 星期二 15:36:45 CST
+host=127.0.0.1:5005 path=/static/test.html threads=4 duration=10 step=200 max=5000
+
+concurrency=10
+Running 10s test @ http://127.0.0.1:5005/static/test.html
+  4 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   366.11us  227.69us  10.15ms   89.00%
+    Req/Sec     5.32k   322.90     6.26k    74.01%
+  Latency Distribution
+     50%  333.00us
+     75%  432.00us
+     90%  564.00us
+     99%    0.89ms
+  213911 requests in 10.10s, 45.29MB read
+Requests/sec:  21179.26
+Transfer/sec:      4.48MB
